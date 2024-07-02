@@ -1,0 +1,6 @@
+fire==0.5.0
+onnx==1.14.0
+protobuf==4.23.4
+torch==2.0.1
+torchaudio==2.0.2
+torchvision==0.15.2
