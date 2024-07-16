@@ -22,6 +22,7 @@ from .MultiHeadAttention import multi_head_attention
 from .MultiHeadCacheAttention import multi_head_cache_attention
 
 from .ParallelEmbedding import parallel_embedding
+from .PixelUnshuffle import pixel_unshuffle
 
 from .Reshape import reshape
 

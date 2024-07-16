@@ -14,7 +14,7 @@ import intern_vit.modeling.Params as Params
 def main(
     ckpt_dir: str,
     batch: int = 1,
-    with_proj_head: bool = False, # use projection head to cls
+    with_proj_head: bool = True, # use projection head to cls
     fused_qkv: bool = True, # fuse qkv linear
     dump_tensor_path: str = None,
 ):

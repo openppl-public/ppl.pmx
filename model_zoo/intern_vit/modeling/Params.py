@@ -15,3 +15,6 @@ class ViTParams:
     image_size: int = 224
     patch_size: int = 32
     projection_dim: int = 512
+    
+    llm_hidden_dim: int = 512
+    downsample_ratio: int = 2
