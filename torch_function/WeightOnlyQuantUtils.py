@@ -147,11 +147,11 @@ class Int4QuantUtils():
             zeros = zeros.to(torch.int8) & 0x0F
             offset = zeros.repeat_interleave(group_size, dim=1)
         imatrix = imatrix.to(torch.int8) & 0x0F
-
         fmatrix = (imatrix - offset) * scales.repeat_interleave(group_size, dim=1)
         fmatrix = fmatrix.to(torch.float16)
 
         return fmatrix
+
 
 
 if __name__ == "__main__":
